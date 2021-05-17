@@ -16,7 +16,7 @@ img {vertical-align: middle;}
 
 /* Boutons */
 .Précédent, .Suivant {
-  cursor: pointer;
+  cursor: grab;
   position: absolute;
   top: 50%;
   width: auto;
@@ -185,7 +185,7 @@ img {vertical-align: middle;}
     grid-template-columns: 1fr 1fr 1fr 1fr !important;
     grid-template-rows: 1fr !important;
   }
-  .Clients{
+  .NVTecrit{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -229,11 +229,11 @@ img {vertical-align: middle;}
   background-color: #666;
 }
 
-.div3 ul {
+.Case3 ul {
   list-style: none;
   color: #000;
 }
-.div3 a {
+.Case3 a {
   text-decoration: none;
 }
 
@@ -252,7 +252,7 @@ img {vertical-align: middle;}
   grid-template-rows: 1fr;
 }
 
-.AngeleLogo2 > img {
+.Case1 > img {
   display: inline-block;
   vertical-align: top;
   margin-right: 0.65rem;
