@@ -131,14 +131,6 @@ img {vertical-align: middle;}
     padding: 0 5px;
   }
 
-  .inside2-image-wrapper > img {
-    padding: 0 5px;
-  }
-  
-  .inside3-image-wrapper > img {
-    padding: 0 5px;
-  }
-
   .Icones {
     display: inherit;
   }
@@ -147,13 +139,13 @@ img {vertical-align: middle;}
     display: inherit;
   }
 
-  .inside {
+  .Photos {
     flex-direction: row !important;
   }
-  .inside2 {
+  .Photos2 {
     flex-direction: row !important;
   }
-  .inside3 {
+  .Photos3 {
     flex-direction: row !important;
   }
 
@@ -195,13 +187,13 @@ img {vertical-align: middle;}
     align-items: center;
   }
 
-  .inside {
+  .Photos {
     text-align: center;
   }
-  .inside2{
+  .Photos2{
     text-align: center;
   }
-  .inside3{
+  .Photos3{
     text-align: center;
   }
 
@@ -211,39 +203,31 @@ img {vertical-align: middle;}
   
 }
 
-.container {
-  background-color: grey;
-  height: 500px;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  font-size: 100px;
-  text-align: center;
-  padding-top: 50px;
-}
-
 .AngeleLogo2-info {
   display: inline-block;
 }
 
 .AngeleLogo2-nom {
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 500;
   line-height: 0.7;
-  margin-top: 5px;
+  font-size: 1.8rem;
 }
 
 .AngeleLogo2-titre {
-  color: #999;
-  font-size: 0.8rem;
+  color: #d36820;
+  font-size: 0.9rem;
 }
 
 .TraitHorizontale {
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-top: 55px;
-  height: 1px;
-  background-color: #666;
+  background-color: #000;
+  height: 1.2px;
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.Case3 a {
+  text-decoration: none;
 }
 
 .Case3 ul {
@@ -251,22 +235,17 @@ img {vertical-align: middle;}
   color: #000;
 }
 
-.Case3 a {
-  text-decoration: none;
-}
-
 #BasDePage {
-  background-color: white;
-  height: 200px;
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border: #666;
-  border-width: 1px;
-  line-height: 1.71;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  background-color: white;
+  height: 250px;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-left: 35px;
+  border: #666;
+  border-width: 1px;
 }
 
 .Case1 > img {
@@ -314,14 +293,14 @@ text-align: justify;
   align-items: center;
 }
 
-.inside {
+.Photos {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   margin: 0 25px;
 }
 
-.inside2 {
+.Photos2 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -330,7 +309,7 @@ text-align: justify;
   
 }
 
-.inside3 {
+.Photos3 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
