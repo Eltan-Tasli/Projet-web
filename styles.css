@@ -251,8 +251,11 @@ img {vertical-align: middle;}
 .Case1 > img {
   display: inline-block;
   vertical-align: top;
-  margin-right: 0.65rem;
-  height: 2.356rem;
+  height: 2.5rem;
+}
+
+#BasDePage > div {
+  margin-top: 1.5rem;
 }
 
 #BasDePage div > ul {
@@ -260,19 +263,14 @@ img {vertical-align: middle;}
   margin: 0;
 }
 
-#BasDePage > div {
-  margin-top: 2rem;
-}
-
 .Icones-BasDePage a:first-child {
   margin-left: 0;
 }
 
 .Icones-BasDePage a {
-  margin: 20;
+    margin-left: 1.8rem;
   color: #000;
   text-decoration: none;
-  margin-left: 2rem;
 }
 
 .center {
