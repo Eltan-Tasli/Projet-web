@@ -169,6 +169,7 @@ img {vertical-align: middle;}
 }
 
 @media (min-width: 1200px) {
+
   #BasDePage {
     grid-template-columns: 1fr 1fr 1fr 1fr !important;
     grid-template-rows: 1fr !important;
@@ -180,6 +181,34 @@ img {vertical-align: middle;}
     justify-content: space-between;
     text-align: center;
    }
+}
+
+@media (max-width: 1200px) {
+
+  .entête-droite p{
+    display: none;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inside {
+    text-align: center;
+  }
+  .inside2{
+    text-align: center;
+  }
+  .inside3{
+    text-align: center;
+  }
+
+  .NVDroite{
+    display: none;
+  }
+  
 }
 
 .container {
@@ -221,6 +250,7 @@ img {vertical-align: middle;}
   list-style: none;
   color: #000;
 }
+
 .Case3 a {
   text-decoration: none;
 }
@@ -290,6 +320,7 @@ text-align: justify;
   flex-direction: column;
   margin: 0 25px;
 }
+
 .inside2 {
   display: flex;
   justify-content: space-around;
@@ -298,6 +329,7 @@ text-align: justify;
   margin-top: 50px;
   
 }
+
 .inside3 {
   display: flex;
   justify-content: space-around;
@@ -307,28 +339,7 @@ text-align: justify;
   
 }
 
-@media (max-width: 1200px) {
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .inside {
-    text-align: center;
-  }
-  .inside2{
-    text-align: center;
-  }
-  .inside3{
-    text-align: center;
-  }
-
-  .NVDroite{
-    display: none;
-  }
-  
-}
 
 .center-image-wrapper {
   max-width: 400px;
@@ -391,23 +402,24 @@ height: auto;
   width: 250px;
   height: auto;}
 
-  .BROL{
-    color:#ff0000;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: underline;
-  }
+.BROL{
+  color:#ff0000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
 
-    .NVDroite li{
-      float:left;   
-      margin: 100px; 
-      list-style: none;
-    
-  }
-  .NVDroite a{
-    text-decoration: none;
-    color: #000;
+.NVDroite li{
+  float:left;   
+  margin: 100px; 
+  list-style: none; 
+}
+
+.NVDroite a{
+  text-decoration: none;
+  color: #000;
  }
+
  #Ecriture {
    text-align: center;
    margin-left: 10px;
@@ -415,9 +427,11 @@ height: auto;
    margin-bottom: -20px;
    font-size: 27px;
  }
+
  .container-middle{
    text-align: center;
  }
+
 .container-middle-bottom{
   text-align: center;
 }
